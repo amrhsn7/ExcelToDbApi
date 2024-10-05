@@ -11,8 +11,6 @@ namespace ExcelUploadApi
         public DbSet<ExcelUploaderModel> Data { get; set; }
 
         public ExcelUploaderDbContext(DbContextOptions<ExcelUploaderDbContext> options) : base(options) { }
-
-
     }
 
 
